@@ -1,0 +1,14 @@
+spring:
+  thymeleaf:
+    cache: false
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:file:d:\03_dev\03.h2db\h2db
+    username: sa
+    password: 
+  jpa:
+    hibernate:
+      ddl-auto: update
+security:
+  basic:
+    enabled: false

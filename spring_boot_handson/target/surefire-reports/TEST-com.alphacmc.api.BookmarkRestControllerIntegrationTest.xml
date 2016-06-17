@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.alphacmc.api.BookmarkRestControllerIntegrationTest" time="2.82" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="D:\02_apps\Java\jre1.8.0_91\bin"/>
+    <property name="java.vm.version" value="25.91-b15"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\03_dev\workspace-sts-3.7.3.RELEASE\spring_boot_handson"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="JP"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\03_dev\workspace-sts-3.7.3.RELEASE\spring_boot_handson"/>
+    <property name="java.runtime.version" value="1.8.0_91-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="D:\02_apps\Java\jre1.8.0_91\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\欣也\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="D:\03_dev\workspace-sts-3.7.3.RELEASE\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6318780497756923760.tmp"/>
+    <property name="sun.jnu.encoding" value="MS932"/>
+    <property name="java.library.path" value="D:\02_apps\Java\jre1.8.0_91\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/02_apps/Java/jre1.8.0_91/bin/client;D:/02_apps/Java/jre1.8.0_91/bin;D:/02_apps/Java/jre1.8.0_91/lib/i386;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Broadcom\Broadcom 802.11 Network Adapter\Driver;;C:\Program Files\Intel\TXE Components\TCS\;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\TXE Components\DAL\;C:\Program Files\Intel\TXE Components\IPT\;C:\Program Files\TortoiseGit\bin;C:\Program Files\HashiCorp\Vagrant\bin;D:\02_apps\apache-maven-3.3.9\bin;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby2.1.0\bin;D:\02_apps\sts-bundle\sts-3.7.3.RELEASE;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\欣也"/>
+    <property name="user.timezone" value="Asia/Tokyo"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="MS932"/>
+    <property name="user.name" value="欣也"/>
+    <property name="java.class.path" value="/D:/02_apps/sts-bundle/sts-3.7.3.RELEASE/plugins/org.eclipse.m2e.maven.runtime_1.6.2.20150902-0001/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="D:\02_apps\Java\jre1.8.0_91"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Ppom.xml -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="ja"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="1.8.0_91"/>
+    <property name="java.ext.dirs" value="D:\02_apps\Java\jre1.8.0_91\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="D:\02_apps\Java\jre1.8.0_91\lib\resources.jar;D:\02_apps\Java\jre1.8.0_91\lib\rt.jar;D:\02_apps\Java\jre1.8.0_91\lib\sunrsasign.jar;D:\02_apps\Java\jre1.8.0_91\lib\jsse.jar;D:\02_apps\Java\jre1.8.0_91\lib\jce.jar;D:\02_apps\Java\jre1.8.0_91\lib\charsets.jar;D:\02_apps\Java\jre1.8.0_91\lib\jfr.jar;D:\02_apps\Java\jre1.8.0_91\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\03_dev\workspace-sts-3.7.3.RELEASE\spring_boot_handson\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase name="testDeleteBookmarks" classname="com.alphacmc.api.BookmarkRestControllerIntegrationTest" time="2.264"/>
+  <testcase name="testPostBookmarks" classname="com.alphacmc.api.BookmarkRestControllerIntegrationTest" time="0.393"/>
+  <testcase name="testGetBookmarks" classname="com.alphacmc.api.BookmarkRestControllerIntegrationTest" time="0.163"/>
+</testsuite>

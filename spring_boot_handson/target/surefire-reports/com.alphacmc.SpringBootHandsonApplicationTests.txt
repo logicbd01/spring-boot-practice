@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.alphacmc.SpringBootHandsonApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.119 sec - in com.alphacmc.SpringBootHandsonApplicationTests
